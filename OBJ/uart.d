@@ -1,4 +1,4 @@
-..\obj\uart.o: Model\Uart.c
+..\obj\uart.o: ..\Module\Uart.c
 ..\obj\uart.o: ..\SYSTEM\sys\sys.h
 ..\obj\uart.o: ..\USER\stm32f4xx.h
 ..\obj\uart.o: ..\USER\stm32f429xx.h
@@ -71,4 +71,6 @@
 ..\obj\uart.o: ..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h
 ..\obj\uart.o: ..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h
 ..\obj\uart.o: ..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h
-..\obj\uart.o: Model\Uart.h
+..\obj\uart.o: ..\Module\Uart.h
+..\obj\uart.o: ..\App\driving.h
+..\obj\uart.o: ..\Module\PWM.h

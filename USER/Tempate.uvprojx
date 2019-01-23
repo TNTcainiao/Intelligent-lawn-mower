@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F429xx</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;.\Model</IncludePath>
+              <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\Module;..\App</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -772,17 +772,32 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Model</GroupName>
+          <GroupName>App</GroupName>
+          <Files>
+            <File>
+              <FileName>driving.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\App\driving.c</FilePath>
+            </File>
+            <File>
+              <FileName>driving.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\App\driving.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Module</GroupName>
           <Files>
             <File>
               <FileName>PWM.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Model\PWM.c</FilePath>
+              <FilePath>..\Module\PWM.c</FilePath>
             </File>
             <File>
               <FileName>Uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Model\Uart.c</FilePath>
+              <FilePath>..\Module\Uart.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -69,6 +69,7 @@
 "..\obj\stm32f4xx_ll_usb.o"
 "..\obj\delay.o"
 "..\obj\sys.o"
+"..\obj\driving.o"
 "..\obj\pwm.o"
 "..\obj\uart.o"
 --strict --scatter "..\OBJ\Tempate.sct"

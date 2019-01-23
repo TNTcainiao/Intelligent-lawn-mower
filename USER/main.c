@@ -1,8 +1,10 @@
 #include "sys.h"
 #include "delay.h"
-#include "usart.h"
+
 #include "Uart.h"
 #include "PWM.h"
+#include "driving.h"
+
  
  
 int main(void)
@@ -15,9 +17,9 @@ int main(void)
 	uart3_init();				  //串口3初始化
 	Uart_Receive_IT_Init();			//使能串口3接受中断
 	TIME3_PWM_Init();
+	TIME2_PWM_Init();
 	
 	while(1){
-		
 
 	}
 

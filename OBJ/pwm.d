@@ -1,4 +1,4 @@
-..\obj\pwm.o: Model\PWM.c
+..\obj\pwm.o: ..\Module\PWM.c
 ..\obj\pwm.o: ..\SYSTEM\sys\sys.h
 ..\obj\pwm.o: ..\USER\stm32f4xx.h
 ..\obj\pwm.o: ..\USER\stm32f429xx.h
@@ -71,4 +71,4 @@
 ..\obj\pwm.o: ..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h
 ..\obj\pwm.o: ..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h
 ..\obj\pwm.o: ..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h
-..\obj\pwm.o: Model\PWM.h
+..\obj\pwm.o: ..\Module\PWM.h
